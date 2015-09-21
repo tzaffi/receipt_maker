@@ -12,7 +12,9 @@
 
   <link rel="stylesheet" href="css/signature-pad.css">
 
-  <script type="text/javascript">
+  <!-- TRACKING IS TURNED OFF AS THIS IS A NEW PAGE
+TODO: SET UP GOOGLE ACCOUNT FOR TRACKING
+script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-39365077-1']);
     _gaq.push(['_trackPageview']);
@@ -22,11 +24,13 @@
       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
-  </script>
+  </script -->
 </head>
 <body onselectstart="return false">
-  <a id="github" href="https://github.com/szimek/signature_pad">
-    <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub">
+  <a id="github" href="https://github.com/tzaffi/receipt_maker">
+    <img style="position: absolute; top: 0; right: 0; border: 0;" 
+	 src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" 
+	 alt="Fork me on GitHub">
   </a>
 
   <div id="signature-pad" class="m-signature-pad">
@@ -38,9 +42,32 @@
       <button class="button clear" data-action="clear">Clear</button>
       <button class="button save" data-action="save">Save</button>
     </div>
+    <div>
+      <div>
+	Name or Company: <input id="nameOrCompany" type="text" size="80"
+				name="nameOrCompany" value="John Smith, Guitar Teacher">
+      </div>
+      <div>
+	Service Rendered: <input id="serviceRendered" type="text" size="80"
+				 name="serviceRendered" value="1 hr. Guitar Lesson">
+      </div>
+      <div>
+	Date of Service: <input id="serviceDate" type="text" size="80"
+				name="serviceDate" value="MM/DD/YYYY">
+      </div>
+      <div>
+	Amount Received: <input id="amountReceived" type="text" size="80"
+				name="amountReceived" value="$60.00">
+      </div>
+      <div>
+	Contact Information: <input id="contactInfo" type="text" size="80"
+				    name="contactInfo" value="email: guitarTeacher@hotmail.com, cell: 917 666 6666">
+      </div>
+    </div>
   </div>
-
+  
   <script src="js/signature_pad.js"></script>
+  <script src="js/receipt_maker.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

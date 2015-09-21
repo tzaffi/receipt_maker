@@ -2,7 +2,8 @@ var wrapper = document.getElementById("signature-pad"),
     clearButton = wrapper.querySelector("[data-action=clear]"),
     saveButton = wrapper.querySelector("[data-action=save]"),
     canvas = wrapper.querySelector("canvas"),
-    signaturePad;
+    signaturePad,
+    receiptMaker;
 
 // Adjust canvas coordinate space taking into account pixel ratio,
 // to make it look crisp on mobile devices.
@@ -21,6 +22,7 @@ window.onresize = resizeCanvas;
 resizeCanvas();
 
 signaturePad = new SignaturePad(canvas);
+receiptMaker = new ReceiptMaker(canvas, signaturePad);
 
 clearButton.addEventListener("click", function (event) {
     signaturePad.clear();
@@ -30,6 +32,6 @@ saveButton.addEventListener("click", function (event) {
     if (signaturePad.isEmpty()) {
         alert("Please provide signature first.");
     } else {
-        window.open(signaturePad.toDataURL());
+        window.open(receiptMaker.toDataURL());
     }
 });
