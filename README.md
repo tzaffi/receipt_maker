@@ -5,6 +5,5 @@ This is based on [szimek's Signature Pad](https://github.com/szimek/signature_pa
 
 ## GOAL: Allow easy creation of gigster receipts with signatures.
 
-I.e. your child's tutor comes, you pay them $60, then they sign a receipt attesting to the fact
+E.g. your child's tutor comes, you pay them $60, then they sign a receipt attesting to the fact
 that you paid them $60 which you can save for your records.
-bash-3.2$ 
