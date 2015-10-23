@@ -6,7 +6,7 @@ Would you mind going to the following link and filling out a receipt for the hou
 **TUTORING JONBOY**? 
 
 If you use a desktop web browser an image will be generated which you can just save to your desktop
-and email me as an attachments. 
+and email me as an attachment. 
 
 Unfortunately, the form has no database so I can't see the receipt unless you email it directly to me
 right after generating it. That means that if you are working on your desktop/laptop computer you have to drag 
