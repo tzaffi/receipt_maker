@@ -15,7 +15,9 @@ the generated image to your desktop and then email it back to me as an attachmen
 If you are on your phone, it's a little more complicated because you have to take a screenshot first and "share" 
 the generated photo by email.
 
-All the best
+All the best,
+
+**ME MYSELF AND I**
 
 ------------
 Here's the link:
