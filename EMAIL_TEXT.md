@@ -1,9 +1,9 @@
-Hi <FRIEND>,
+Hi **FRIEND**,
 
 Thank you for today's great lesson!
 
 Would you mind going to the following link and filling out a receipt for the hours which you spent 
-<TUTORING JONBOY>? 
+**TUTORING JONBOY**? 
 
 If you use a desktop web browser an image will be generated which you can just save to your desktop
 and email me as an attachments. 
