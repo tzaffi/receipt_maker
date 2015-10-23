@@ -3,7 +3,8 @@ Hi **FRIEND**,
 Thank you for today's great lesson!
 
 Would you mind going to the following link and filling out a receipt for the hours which you spent 
-**TUTORING JONBOY**? 
+**TUTORING JONBOY**? After entering the information, sign with your mouse (or finger) inside the signature rectangle, 
+and hit the ***SAVE*** button.
 
 If you use a desktop web browser an image will be generated which you can just save to your desktop
 and email me as an attachment. 
@@ -20,6 +21,4 @@ All the best,
 **ME MYSELF AND I**
 
 ------------
-Here's the link:
-
-(http://tzaffi.github.io/receipt_maker/)
+Here's the link: http://tzaffi.github.io/receipt_maker/
